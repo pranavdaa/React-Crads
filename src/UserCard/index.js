@@ -5,7 +5,8 @@ import UserCardHeader from './UserCardHeader';
 import UserCardAvatar from './UserCardAvatar';
 import UserCardBody from './UserCardBody';
 import UserCardStats from './UserCardStats';
-import UsrAdditionalInfo from './UsrAdditionalInfo'
+import UsrAdditionalInfo from './UsrAdditionalInfo';
+import UserApplyButton from './UserApplyButton';
 import styles from './styles.scss';
 
 class UserCard extends React.Component {
@@ -23,6 +24,8 @@ class UserCard extends React.Component {
       positionName,
       stats,
       date,
+      buttonText,
+      url,
       location,
       ...other
     } = this.props;
@@ -62,6 +65,10 @@ location={location}
 		                      />
 	          : null
 	        }
+          <UserApplyButton 
+          buttonText={buttonText}
+          url={url}
+          />
 	        
 	      </Card>
       </a>

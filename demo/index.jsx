@@ -81,6 +81,8 @@ const demo = () => {
           date='Mar 16 - Mar 20, 2020'
           location='Bhubaneswar,India'
           positionName='Lets Mun Piece not Pieces'
+           buttonText='ApplyNow'
+          url='https://github.com/nukeop'
           stats={[
             {
               name: 'Delegates',
@@ -96,6 +98,7 @@ const demo = () => {
             }
           ]}
         />
+        
       </div>
       <h2>
         Product cards
