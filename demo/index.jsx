@@ -74,23 +74,25 @@ const demo = () => {
         />
         <UserCard
           float
-          href='https://github.com/nukeop'
-          header='https://i.imgur.com/p5yXGQk.jpg'
-          avatar='https://i.imgur.com/kFkyYkZ.jpg'
-          name='Joseph Cheps'
-          positionName='Firmware Engineer'
+          href='https://kiitmun.org/'
+          header='https://teja8.kuikr.com/images/QuikrEducation//image/institutev2/864/Cover.jpg'
+          avatar='https://i2.wp.com/i.fests.info/2015/06/KIIT-International-MUN-2015-in-Odisha-from-October-30-to-November-1-2015.jpg?resize=770%2C663'
+          name='KIIT MUN'
+          date='Mar 16 - Mar 20, 2020'
+          location='Bhubaneswar,India'
+          positionName='Lets Mun Piece not Pieces'
           stats={[
             {
-              name: 'commits',
-              value: 365
+              name: 'Delegates',
+              value: 500
             },
             {
-              name: 'stars',
-              value: 110
+              name: 'Committees',
+              value: 11
             },
             {
-              name: 'repositories',
-              value: 54
+              name: 'Days',
+              value: 3
             }
           ]}
         />

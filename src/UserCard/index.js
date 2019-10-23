@@ -5,7 +5,7 @@ import UserCardHeader from './UserCardHeader';
 import UserCardAvatar from './UserCardAvatar';
 import UserCardBody from './UserCardBody';
 import UserCardStats from './UserCardStats';
-
+import UsrAdditionalInfo from './UsrAdditionalInfo'
 import styles from './styles.scss';
 
 class UserCard extends React.Component {
@@ -22,6 +22,8 @@ class UserCard extends React.Component {
       name,
       positionName,
       stats,
+      date,
+      location,
       ...other
     } = this.props;
     
@@ -45,6 +47,13 @@ class UserCard extends React.Component {
 	        </UserCardBody>
 
 <hr className={styles['line']} />
+
+<UsrAdditionalInfo 
+date={date}
+location={location}
+>
+  {this.props.children}
+</UsrAdditionalInfo>
 
 	        {
 	          stats !== undefined
