@@ -43,25 +43,36 @@ const PaymentCard = props => {
         <IssuerIcon
           icon={issuerIcon}
         />
-        <Chip />
+        {/* <Chip /> */}
         <PaymentCardNumber
           number={number}
         />
+         {/* <PaymentCardDate
+          date={date}
+        />
+        
+        <PaymentCardName
+          name={name}
+        /> */}
+
+      </FlippingCardFront>
+      <FlippingCardBack>
+           <PaymentCardBackground
+          background={background}
+          backgroundPattern={backgroundPattern}
+        />
+        <IssuerIcon
+          icon={issuerIcon}
+        />
+        {/* <Chip /> */}
+        {/* <PaymentCardNumber
+          number={number}
+        /> */}
         <PaymentCardDate
           date={date}
         />
         <PaymentCardName
           name={name}
-        />
-
-      </FlippingCardFront>
-      <FlippingCardBack>
-        <PaymentCardBackground
-          background={background}
-          backgroundPattern={null}
-        />
-        <PaymentCardBack
-          cvv={cvv}
         />
       </FlippingCardBack>
     </FlippingCard>

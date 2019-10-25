@@ -6,7 +6,7 @@ import styles from './styles.scss';
 const PaymentCardDate = props => {
   return (
     <div className={styles['payment-card-date']}>
-      <div className={styles['valid-date']}>Valid dates</div>
+      <div className={styles['valid-date']}></div>
       <div className={styles['to-date']}>{props.date}</div>
     </div>
   );

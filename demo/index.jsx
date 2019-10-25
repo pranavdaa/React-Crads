@@ -362,12 +362,12 @@ const demo = () => {
           cvv='714'
         />
         <PaymentCard
-          background='linear-gradient( 135deg, #11998e, #38ef7d)'
+          background='linear-gradient( 300deg, #2B0084, #00AFFF)'
           backgroundPattern='triangles'
-          issuerIcon='https://i.imgur.com/CRdoJbX.png'
-          number='3421 7270 0864 956'
-          date='02/22'
-          name='Jotaro Kujo'
+          issuerIcon='http://pngimg.com/uploads/un/un_PNG10.png'
+          number='Want Your MUN To Be listed here ?'
+          date='Drop Us a Mail At hello@munworld.co'
+          name='Contact Us - 8917276615'
           cvv='880'
         />
       </div>
