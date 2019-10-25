@@ -5,10 +5,10 @@
 Various stylish card components for React.
 Focused on being ready to use with little modifications. Supply your data and you're good to go.
 
-## Live demo
+## THis is the abriviated version of -> Live demo
 https://nukeop.github.io/react-ui-cards/
 
-## npm
+## npm for the original version
 https://www.npmjs.com/package/react-ui-cards
 
 ## Installation
@@ -35,7 +35,7 @@ In addition to what's listed for each card type, all cards can take the followin
 - `float` (boolean) to enable animation on hover
 - Other props are passed down to the enclosing div element so you can e.g. add custom callbacks for onClick and other events.
 
-### User cards
+### User cards-  Main changes in this only!
 Cards representing users or people.
 
 | attribute    | type        | description                                                                                             |
